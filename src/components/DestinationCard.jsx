@@ -1,8 +1,15 @@
 import React from 'react'
+import './DestinationCard.css'
 
-const DestinationCard = () => {
+const DestinationCard = ({ dest }) => {
+    const { name, imageURL, international } = dest;
+
     return (
-        <div>DestinationCard</div>
+        <div className='destination-card'>
+            <p>{name}</p>
+            <p>International: {international ? 'True' : 'False'}</p>
+            <img src={imageURL} />
+        </div>
     )
 }
 

@@ -1,0 +1,15 @@
+.main-banner-container {
+    background-image: url('https://www.libertytravel.com/sites/default/files/styles/full_size/public/LIB1411_BrandRefresh_CorporateImages_HomepageHero_1920x680_01.jpg?itok=3GNeTTjO');
+    height: 50vh;
+    width: 100%;
+    color: white;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-banner-container {
+    font-size: 50px;
+    font-family: 'Tilt Prism', cursive;
+}
