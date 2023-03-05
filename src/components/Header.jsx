@@ -5,8 +5,8 @@ import './Header.css'
 const Header = () => {
     return (
         <header>
-            <NavLink to='/'>Home</NavLink>
-            <NavLink to='addDestination'>Add New Destination!</NavLink>
+            <NavLink to='/' className={({ isActive }) => isActive ? 'active-nav' : 'inactive-nav'}>Home</NavLink>
+            <NavLink to='addDestination' className={({ isActive }) => isActive ? 'active-nav' : 'inactive-nav'}>Add New Destination!</NavLink>
         </header>
     )
 }
